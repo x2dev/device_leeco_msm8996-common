@@ -349,6 +349,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl
 
+# Copy prebuilt libc
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/libshims/libc.so:system/lib/libc.so
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
