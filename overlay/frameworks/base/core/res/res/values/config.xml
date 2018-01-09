@@ -406,6 +406,7 @@
     <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
     <bool name="config_dynamic_bind_ims">true</bool>
 
+<<<<<<< HEAD
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
@@ -455,4 +456,9 @@
          that support pulsating and RGB control would set this config
          to 75. -->
     <integer name="config_deviceLightCapabilities">75</integer>
+
+   <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+   in hardware. -->
+   <bool name="config_setColorTransformAccelerated">true</bool>
+
 </resources>
