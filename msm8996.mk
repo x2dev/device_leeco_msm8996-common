@@ -360,6 +360,7 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
+    android.hardware.tetheroffload.config@1.0 \	
     libqsap_sdk \
     libQWiFiSoftApCfg \
     libwpa_client \
