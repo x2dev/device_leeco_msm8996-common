@@ -158,7 +158,7 @@ PRODUCT_PACKAGES += \
     libshims_camera \
     libshims_camera_client \
     libshims_qcamera-daemon \
-    Snap
+    Camera2
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -237,6 +237,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     $(LOCAL_PATH)/gps/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(LOCAL_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
+
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common
 
 # IRQ
 PRODUCT_COPY_FILES += \
