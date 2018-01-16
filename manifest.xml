@@ -97,24 +97,6 @@
             <instance>msm8996</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>android.hardware.graphics.mapper</name>
-        <transport arch="32+64">passthrough</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IMapper</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.graphics.composer</name>
-        <transport>hwbinder</transport>
-        <version>2.1</version>
-        <interface>
-            <name>IComposer</name>
-            <instance>msm8996</instance>
-        </interface>
-    </hal>
 <!--
     <hal format="hidl">
         <name>android.hardware.ir</name>
@@ -231,6 +213,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+<!--
     <hal format="hidl">
         <name>vendor.display.config</name>
         <transport>hwbinder</transport>
@@ -249,6 +232,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+-->
     <hal format="hidl">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
