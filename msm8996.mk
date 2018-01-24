@@ -162,7 +162,8 @@ PRODUCT_PACKAGES += \
     libshims_camera \
     libshims_camera_client \
     libshims_qcamera-daemon \
-    Camera2
+    Camera2 \
+    Snap
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
