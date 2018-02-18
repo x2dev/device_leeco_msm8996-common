@@ -159,6 +159,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@3.2-impl \
     camera.msm8996 \
+    libmm-qcamera \
     libshims_camera \
     libshims_camera_client \
     libshims_qcamera-daemon \
