@@ -119,7 +119,6 @@ RED_LED_PATH   := "/sys/class/leds/led:rgb_red/brightness"
 GREEN_LED_PATH := "/sys/class/leds/led:rgb_green/brightness"
 BLUE_LED_PATH  := "/sys/class/leds/led:rgb_blue/brightness"
 
-
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_leeco_msm8996
 TARGET_RECOVERY_DEVICE_MODULES := libinit_leeco_msm8996
