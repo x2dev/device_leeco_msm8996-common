@@ -15,7 +15,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     mmp.enable.3g2=true \
     mm.enable.smoothstreaming=true \
     mm.enable.qcom_parser=4194303 \
-    persist.mm.enable.prefetch=true
+    persist.mm.enable.prefetch=true \
+    persist.media.treble_omx=false
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -40,7 +41,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.voice.path.for.pcm.voip=true \
     ro.vendor.audio.sdk.fluencetype=fluence \
     persist.vendor.audio.fluence.voicecall=true \
-    persist.vendor.audio.fluence.voicerec=false \
+    persist.vendor.audio.fluence.voicerec=true \
     persist.vendor.audio.fluence.audiorec=false \
     persist.vendor.audio.fluence.speaker=true \
     vendor.audio.offload.buffer.size.kb=64 \
@@ -63,7 +64,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     bt.max.hfpclient.connections=1 \
     qcom.bluetooth.soc=rome \
     ro.bluetooth.wipower=true \
-    ro.bluetooth.emb_wp_mode=true
+    ro.bluetooth.emb_wp_mode=true \
+    persist.bt.enableAptXHD=true 
 
 # System property for cabl
 PRODUCT_PROPERTY_OVERRIDES += \
